@@ -57,7 +57,6 @@ Vagrant.configure("2") do |config|
   # Example for VirtualBox:
   #
 
-  config.vm.synced_folder "C:/vijay/Vagrant", "/vagrant"
   config.vm.provider "virtualbox" do |vb|
     # Display the VirtualBox GUI when booting the machine
     vb.gui = true
